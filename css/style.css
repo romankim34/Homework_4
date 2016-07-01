@@ -1,0 +1,319 @@
+blockquote,body,dd,div,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,input,li,ol,p,pre,td,textarea,th,ul{padding:0;margin:0}table{border-collapse:collapse;border-spacing:0}abbr,acronym,fieldset,img{border:0}address,caption,cite,code,dfn,em,strong,th,var{font-weight:400;font-style:normal}ol,ul{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-weight:400;font-size:100%}q:after,q:before{content:''}
+
+
+
+
+
+.container1 {
+    background: url(../img/bg.png) repeat-x #1090b0;
+    max-width: 1280px;
+    margin: auto;
+}
+.container2 {
+    max-width: 1000px;
+    margin: auto;
+    box-shadow: 0 4px 7px 0px #031d28;
+}
+
+/* Header --------------------------------------------*/
+
+.header {
+    background: #fff;
+    padding: 0px 28px 0;
+    max-height: 412px;
+    border-bottom: 1px solid #128aa7;
+}
+.logo {
+    position: relative;
+    width: 284px;
+    float: left;
+    padding-top: 10px
+}
+.logo img {
+    margin-bottom: -1px;
+}
+.logo p {
+    position: absolute;
+    top: 107px;
+    left: 72px;
+    font-size: 12px;
+    font-family: "Tahoma";
+    color: rgb( 18, 138, 167 );
+}
+.contacts {
+    float: right;
+}
+.phone {
+    margin-left: 238px;
+    margin-bottom: 27px;
+    padding-top: 10px;
+    max-width: 125px;
+    
+}
+.contacts h1 {
+    font-size: 12px;
+    font-family: "Tahoma";
+    font-weight: 600;
+    color: rgba( 18, 138, 167, 0.8 );
+    margin-bottom: 5px;
+}
+.contacts p {
+    font-size: 12px;
+    font-family: "Tahoma";
+    color: rgba( 18, 138, 167, 0.8 );
+    line-height: 17px;
+}
+.flag {
+    display: inline-block;
+    clear: both;
+    width: 58px;
+    margin-right: 0px;
+    text-align: center;
+}
+.flag p {
+    text-align: center;
+    margin-bottom: 6px;
+    line-height: 10px;
+}
+.flag a {
+    font-size: 10px;
+    font-family: "Tahoma";
+    color: rgba( 18, 138, 167, 0.8 );    
+}
+.header>img {
+    margin-left: -28px;
+    margin-bottom: 0;
+    margin-top: -3px;
+    border-top: 1px solid #128aa7;
+    border-bottom: 1px solid #138aa7;
+}
+
+/* Menu ----------------------------------------------------------*/
+
+.main_menu {
+    position: relative;
+    background: #343434;
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #cacbcb;
+    box-shadow: 0px 4px 4px 0 #555555;
+}
+.main_menu ul {
+    
+}
+.main_menu>li {
+    display: inline-block;
+}
+.main_menu li a {
+    font-size: 14px;
+    font-family: "Tahoma";
+    color: rgb( 255, 255, 255 );
+    text-decoration: none;
+    display: inline-block;
+    padding: 7px 36px;    
+}
+
+
+.main_menu li:hover .sub_travel_menu  {
+    display: block;        
+}
+.main_menu .list_1 {
+    position: relative;    
+}
+
+
+.main_menu li:hover .sub_service_menu  {
+    display: block;        
+}
+.main_menu .list_2 {
+    position: relative;    
+}
+
+.main_menu li:hover .sub_partner_menu  {
+    display: block;        
+}
+.main_menu .list_3 {
+    position: relative;    
+}
+
+/* Иконки -------------------------------------------------------*/
+
+.main_menu .list_1::after {
+    content: " ";
+    position: absolute;
+    border: 4px solid;
+    border-color: transparent transparent transparent #eee;
+    top: 1em;
+    right: 1.3em;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+.main_menu .list_2::after {
+    content: " ";
+    position: absolute;
+    border: 4px solid;
+    border-color: transparent transparent transparent #eee;
+    top: 1em;
+    right: 1.3em;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+.main_menu .list_3::after {
+    content: " ";
+    position: absolute;
+    border: 4px solid;
+    border-color: transparent transparent transparent #eee;
+    top: 1em;
+    right: 1.3em;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+/* Первое подменю ------------------------------------------------*/
+
+.sub_travel_menu {
+    width: 150px;
+    position: absolute;
+    top: 31px;
+    left: 35px;
+    display: none;
+    background: #343434;
+    box-shadow: 0 6px 9px 0px #404040;
+}
+.sub_travel_menu li {
+    display: inline-block;
+}
+.sub_travel_menu li a {
+    display: inline-block;
+    padding: 4px 42px 3px 10px;
+}
+.sub_travel_menu li a:last-child {
+    padding-bottom: 8px;
+}
+.sub_travel_menu li a:hover {
+    color: rgb(224, 220, 220);
+}
+
+/* Второе подменю ------------------------------------------------*/
+
+.sub_service_menu {
+    width: 150px;
+    position: absolute;
+    top: 31px;
+    left: 35px;
+    display: none;
+    background: #343434;
+    box-shadow: 0 6px 9px 0px #404040;
+}
+.sub_service_menu li {
+    display: inline-block;
+}
+.sub_service_menu li a {
+    display: inline-block;
+    padding: 4px 42px 3px 10px;
+}
+.sub_service_menu li a:last-child {
+    padding-bottom: 8px;
+}
+.sub_service_menu li a:hover {
+    color: rgb(224, 220, 220);
+}
+
+/*Третье подменю -------------------------------------------------*/
+
+
+.sub_partner_menu {
+    width: 150px;
+    position: absolute;
+    top: 31px;
+    left: 33px;
+    display: none;
+    background: #343434;
+    box-shadow: 0 6px 9px 0px #404040;
+}
+.sub_partner_menu li {
+    display: inline-block;
+}
+.sub_partner_menu li a {
+    display: inline-block;
+    padding: 4px 42px 3px 10px;
+}
+.sub_partner_menu li a:last-child {
+    padding-bottom: 8px;
+}
+.sub_partner_menu li a:hover {
+    color: rgb(224, 220, 220);
+}
+
+/* Content ------------------------------------------------------*/
+
+.content {
+    max-width: 1000px;
+    margin: auto;
+    background: url("../img/bg3.png") repeat-y center;
+    float: left;
+    box-shadow: 0 0 7px 0 #031d28;
+    border-bottom: 3px solid #031d28;
+}
+.left {
+    width: 210px;
+    float: left;
+    padding: 14px;
+    box-sizing: border-box;
+}
+.center {
+    width: 582px;
+    float: left;
+    padding: 14px;
+    box-sizing: border-box;
+}
+.right {
+    width: 208px;
+    float: left;
+    padding: 14px;
+    box-sizing: border-box;
+}
+.content h1 {
+    text-align: center;
+    font-size: 18px;
+    font-family: "Tahoma";
+    color: rgb( 66, 76, 67 );
+}
+.content p {
+    font-size: 14px;
+    font-family: "Tahoma";
+    color: rgb( 66, 76, 67 );
+    line-height: 1.714;
+}
+
+/* Footer -------------------------------------------------------*/
+
+
+.footer {
+    text-align: center;
+    border: 1px solid rgba(255, 0, 0, 0);
+    clear: both;
+}
+.footer p {
+    margin: 9px;
+    font-size: 12.967px;
+    font-family: "Tahoma";
+    color: rgba( 255, 255, 255, 0.8 );
+}
+
+
+
+
+
+
+
+
+
+
+
+
