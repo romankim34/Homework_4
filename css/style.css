@@ -3,11 +3,8 @@ blockquote,body,dd,div,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,input,li,ol,p,pre,t
 
 
 
-
-.container1 {
+body {
     background: url(../img/bg.png) repeat-x #1090b0;
-    max-width: 1280px;
-    margin: auto;
 }
 .container2 {
     max-width: 1000px;
@@ -27,7 +24,7 @@ blockquote,body,dd,div,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,input,li,ol,p,pre,t
     position: relative;
     width: 284px;
     float: left;
-    padding-top: 10px
+    padding-top: 11px
 }
 .logo img {
     margin-bottom: -1px;
@@ -45,7 +42,7 @@ blockquote,body,dd,div,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,input,li,ol,p,pre,t
 }
 .phone {
     margin-left: 238px;
-    margin-bottom: 27px;
+    margin-bottom: /*27*/15px;
     padding-top: 10px;
     max-width: 125px;
     
@@ -61,7 +58,7 @@ blockquote,body,dd,div,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,input,li,ol,p,pre,t
     font-size: 12px;
     font-family: "Tahoma";
     color: rgba( 18, 138, 167, 0.8 );
-    line-height: 17px;
+    line-height: 16px;
 }
 .flag {
     display: inline-block;
@@ -70,15 +67,11 @@ blockquote,body,dd,div,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,input,li,ol,p,pre,t
     margin-right: 0px;
     text-align: center;
 }
-.flag p {
-    text-align: center;
-    margin-bottom: 6px;
-    line-height: 10px;
-}
 .flag a {
     font-size: 10px;
     font-family: "Tahoma";
-    color: rgba( 18, 138, 167, 0.8 );    
+    color: rgba( 18, 138, 167, 0.8 );
+    
 }
 .header>img {
     margin-left: -28px;
@@ -179,7 +172,7 @@ blockquote,body,dd,div,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,input,li,ol,p,pre,t
 .sub_travel_menu {
     width: 150px;
     position: absolute;
-    top: 31px;
+    top: 32px;
     left: 35px;
     display: none;
     background: #343434;
@@ -187,6 +180,7 @@ blockquote,body,dd,div,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,input,li,ol,p,pre,t
 }
 .sub_travel_menu li {
     display: inline-block;
+    margin-top: -1px;
 }
 .sub_travel_menu li a {
     display: inline-block;
@@ -204,7 +198,7 @@ blockquote,body,dd,div,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,input,li,ol,p,pre,t
 .sub_service_menu {
     width: 150px;
     position: absolute;
-    top: 31px;
+    top: 32px;
     left: 35px;
     display: none;
     background: #343434;
@@ -212,6 +206,7 @@ blockquote,body,dd,div,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,input,li,ol,p,pre,t
 }
 .sub_service_menu li {
     display: inline-block;
+    margin-top: -1px;
 }
 .sub_service_menu li a {
     display: inline-block;
@@ -230,7 +225,7 @@ blockquote,body,dd,div,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,input,li,ol,p,pre,t
 .sub_partner_menu {
     width: 150px;
     position: absolute;
-    top: 31px;
+    top: 32px;
     left: 33px;
     display: none;
     background: #343434;
@@ -238,6 +233,7 @@ blockquote,body,dd,div,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,input,li,ol,p,pre,t
 }
 .sub_partner_menu li {
     display: inline-block;
+    margin-top: -1px;
 }
 .sub_partner_menu li a {
     display: inline-block;
